@@ -1,4 +1,6 @@
+using System.Linq;
 using NUnit.Framework;
+using PascalsTriangle;
 
 namespace PascalsTriangleTests
 {
@@ -9,18 +11,19 @@ namespace PascalsTriangleTests
         {
         }
 
-        [Test]
-        public void ReturnsArrayOf1WhenGiven1Row()
+        [TestCase((uint)1, new uint[] {1})]
+        [TestCase((uint)2, new uint[] {1, 1, 1})]
+        public void ReturnsArrayOf1WhenGiven1Row(uint rows, uint[] expected)
         {
-            var result = PascalsTriangle.PascalsTriangle.DrawTriangle(1);
+            var result = Triangle.DrawTriangle(rows);
             
-            Assert.That(result, Is.EqualTo(new[] {1}));
+            Assert.That(result, Is.EqualTo(expected));
         }
         
         [Test]
         public void ReturnsArrayOf0WhenGiven0Rows()
         {
-            var result = PascalsTriangle.PascalsTriangle.DrawTriangle(0);
+            var result = Triangle.DrawTriangle(0);
             
             Assert.That(result, Is.Empty);
         }
