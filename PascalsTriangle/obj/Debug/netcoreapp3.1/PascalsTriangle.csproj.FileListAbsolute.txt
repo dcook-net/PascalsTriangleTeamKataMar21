@@ -1,9 +1,0 @@
-/Users/davidcook/PascalsTriangleTeamKataMar21/PascalsTriangle/bin/Debug/netcoreapp3.1/PascalsTriangle.deps.json
-/Users/davidcook/PascalsTriangleTeamKataMar21/PascalsTriangle/bin/Debug/netcoreapp3.1/PascalsTriangle.dll
-/Users/davidcook/PascalsTriangleTeamKataMar21/PascalsTriangle/bin/Debug/netcoreapp3.1/PascalsTriangle.pdb
-/Users/davidcook/PascalsTriangleTeamKataMar21/PascalsTriangle/obj/Debug/netcoreapp3.1/PascalsTriangle.csprojAssemblyReference.cache
-/Users/davidcook/PascalsTriangleTeamKataMar21/PascalsTriangle/obj/Debug/netcoreapp3.1/PascalsTriangle.AssemblyInfoInputs.cache
-/Users/davidcook/PascalsTriangleTeamKataMar21/PascalsTriangle/obj/Debug/netcoreapp3.1/PascalsTriangle.AssemblyInfo.cs
-/Users/davidcook/PascalsTriangleTeamKataMar21/PascalsTriangle/obj/Debug/netcoreapp3.1/PascalsTriangle.csproj.CoreCompileInputs.cache
-/Users/davidcook/PascalsTriangleTeamKataMar21/PascalsTriangle/obj/Debug/netcoreapp3.1/PascalsTriangle.dll
-/Users/davidcook/PascalsTriangleTeamKataMar21/PascalsTriangle/obj/Debug/netcoreapp3.1/PascalsTriangle.pdb

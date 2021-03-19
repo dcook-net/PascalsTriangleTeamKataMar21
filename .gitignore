@@ -1,4 +1,22 @@
-*bin
-*obj
-*.DS_Store
-*.idea
+# IDE
+.vscode/
+.idea/
+.vs/
+*.user
+.ionide/
+
+# Test Results
+TestResult.xml
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+packages/
+.nuget/
+project.lock.json
+
+# python
+*.pyc
+*DS_Store*
