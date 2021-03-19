@@ -13,6 +13,14 @@ namespace PascalsTriangleTests
 
         [TestCase((uint)1, new uint[] {1})]
         [TestCase((uint)2, new uint[] {1, 1, 1})]
+        [TestCase((uint)5, new uint[]
+        {
+                1, 
+               1, 1,
+              1, 2, 1, 
+             1, 3, 3, 1,
+            1, 4, 6, 4, 1
+        })]
         public void ReturnsArrayOf1WhenGiven1Row(uint rows, uint[] expected)
         {
             var result = Triangle.DrawTriangle(rows);
